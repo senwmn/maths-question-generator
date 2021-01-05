@@ -26,7 +26,7 @@ for i in range (10):
 
 print('Well done, you got '+str (score) + 'answer(s) out of 10 correct.')
 
-if Class == 'A' or Class == 'a': #function temp opens txt files and saves user results
+if Class == 'A' or Class == 'a': #temp opens txt files and saves user results
     print('Your score has been saved to Class A Results.txt')
     f = open('Class A Results.txt', "a")
     f.write('\n' +str(name)+': '+str(score))
